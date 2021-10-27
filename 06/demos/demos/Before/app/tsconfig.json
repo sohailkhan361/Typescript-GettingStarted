@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.base",
+  "compilerOptions": {
+    "removeComments": true,
+    "module":"CommonJS",
+    "moduleResolution": "Node",
+    //will give you complete trace of the file found
+    "traceResolution": false
+    // "outFile": "../js/app.js"
+  },
+  "files": [
+    "./app.ts"
+  ]
+}

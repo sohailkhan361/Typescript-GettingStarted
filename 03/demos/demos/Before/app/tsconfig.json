@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.base",
+  "compilerOptions": {
+    "removeComments": true,
+    "outFile": "../js/app.js"
+    //to redirect all the output to a single file
+  },
+  //For all .ts files to be included here:
+  // "include": [
+  //   "./**/*"
+  // ]
+
+  //For selectively using a file for compilation:
+  "files": [
+    "./app.ts"
+  ]
+}
